@@ -1,0 +1,72 @@
+body{
+background-color: #FFCC80;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 1px;
+}
+h1{
+font-size: 65px;
+color: white;
+text-shadow: #FC0 5px 2px 5px, 10px 10px 5em blue, 0 0 0.5em orange;
+font-family: 'Kosugi Maru', sans-serif;
+}
+.subtitle{
+font-size: 45px;
+color: white;
+text-shadow: #FC0 5px 2px 5px, 10px 10px 5em blue, 0 0 0.5em orange;
+font-family: 'Kosugi Maru', serif;
+}
+.sectiontitle{
+font-size: 55px;
+color: white;
+text-shadow: #FC0 5px 2px 5px, 10px 10px 5em blue, 0 0 0.5em orange;
+font-family: 'Sawarabi Gothic', serif;
+border: 7px 
+solid #FFC400;
+box-sizing: border-box;
+border-radius: 58px;
+padding: 12px 15px;
+
+}
+.titleblurb{
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	bottom: 0%;
+	position: relative;
+	font-family: 'Kosugi Maru', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 33px;
+	text-align: center;
+	color: #558B2F;
+}
+
+.textj{
+  color: white;
+  font-family: Kosugi Maru;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#558B2F;
+}
+.w3-display-container:hover .overlay{
+  opacity: 0.95;
+}
