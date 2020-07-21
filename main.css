@@ -70,3 +70,7 @@ padding: 12px 15px;
 .w3-display-container:hover .overlay{
   opacity: 0.95;
 }
+.gmap{
+  padding-bottom: 20px;
+  padding-left: 15%;
+  }
