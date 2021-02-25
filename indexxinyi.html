@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><html lang="cn"><html lang="jp">
+	<head>
+		<title>台湾カフェガイド</title>
+			<link rel="stylesheet" href="main.css">
+			<script type="text/javascript">
+	    		function goToNewPage()
+	    		{
+	        		var url = document.getElementById('list').value;
+	        		if(url != 'none') {
+	       				window.location = url;
+	        		}
+	   			 }
+			</script>
+		<link rel="stylesheet" href="main.css"></link>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Serif+TC:wght@400;700&family=Raleway:wght@600&family=Sawarabi+Gothic&family=Sriracha&display=swap" rel="stylesheet"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<style>
+		.navbar{
+		overflow: hidden;
+		background-color: #795548;
+		width: 100%;
+		}
+		.navbar a {
+		 float:left;
+		 font-family:'Sawarabi Gothic';
+		color:#FFC400;
+ 		 font-size: 35px;
+ 		 text-align: center;
+ 		 padding: 14px 16px;
+ 		 text-decoration: none;
+		margin: 10px 10px;
+		border: 7px solid #FFC400;	
+		color:  #FFC265;
+		box-sizing: border-box;
+		border-radius: 18px;
+		background-color: white;
+		}
+		.dropdown {
+ 		 float: left;
+ 		 overflow: hidden;
+		}
+		.dropdown .dropbtn {
+  		cursor: pointer;
+  		font-size: 35px;  
+  		border: 7px solid #FFC400;
+  		outline: none;
+  		color:  #FFC265;
+  		padding: 14px 16px;
+  		background-color: inherit;
+  		font-family:'Sawarabi Gothic';
+  		margin: 0;
+		flex: none;
+		order: 0;
+		align-self: center;
+		margin: 10px 10px;
+		border: 7px solid #FFC400;
+		box-sizing: border-box;
+		border-radius: 18px;
+		padding: 15px;
+		background-color: white;
+		}		
+		.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+		  background-color:#FFECB3;
+		}
+		.dropdown-content {
+ 		 display: none;
+ 		 position: absolute;
+		 background-color: #f9f9f9;
+		 min-width: 160px;
+ 		 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		 z-index: 1;
+		}
+
+		.dropdown-content a {
+		  float: none;
+		  color: #FFC400;
+		  padding: 15px;
+ 		 text-decoration: none;
+		  display: block;
+		  text-align: left;
+		  font-family: 'Sawarabi Gothic';
+		  font-size: 25px
+		}
+
+		.dropdown-content a:hover {
+ 		background-color:#689F38;
+		}
+
+		.show {
+ 		display: block;
+		}
+	</style>	
+	<body>
+		<header align="center">
+			<h1 class="title"><strong>日本に留学した台湾人の台湾カフェガイド</strong></h1>
+			<h2 class="subtitle"><strong>台湾の居心地の良いカフェで一息いれて、癒して</strong></h2>
+			<div class="navbar">
+				<a href="index.html">ホーム</a>
+			<div class="dropdown">
+ 				 <button class="dropbtn" onclick="myFunction()">淡水線沿線のカフェ
+			    <i class="fa fa-caret-down"></i>
+				 </button>
+			 <div class="dropdown-content" id="myDropdown">
+			    <a href="nanmei.html">「芝山」 駅（バスで20分）｜南美コーヒー(天母店)
+ 			    <a href="humblebeginnings.html">「芝山」 駅（バスで19分）｜Humble Beginnings
+ 			    <a href="jiaolanse.html">「芝山」 駅（バスで18分）｜角藍色
+ 			    <a href="pleasant.html">「芝山」 駅（バスで21分）｜Pleasant Cafe
+ 			    <a href="posse.html">「芝山」 駅（バスで22分）｜Posse Coffee
+ 			    <a href="reste.html">「芝山」 駅（バスで15分）｜常在商行 Reste 
+ 		   		<a href="coffeeandcouple.html">「士林」 駅｜Coffee & Couple</a>
+ 			    <a href="jijacoffee.html">「士林」 駅（バスで23分）｜吉佳コーヒー山上店</a>
+ 		 	    <a href="islandcafe.html">「台北」 駅｜二條通 緑島小夜曲</a>
+ 			    <a href="ponding.html">「台北」 駅｜朋丁（ポン・ディング）</a>
+ 			    <a href="grace.html">「中山」 駅｜葛蕾絲珈琲館（グレイス）</a>
+ 			    <a href="nichinichi.html">「中山」 駅｜日子コーヒー本店</a>
+			    <a href="cafederiz.html">「信義安和」 駅｜Cafe de Riz</a>
+ 			    <a href="jamling.html">「信義安和」 駅｜Jamling Cafe</a>
+				  </div>
+ 				 </div> 
+ 			<a href="indexenglish.html" align="right">English</a>
+		</header>
+		<script>
+		function myFunction() {
+  		document.getElementById("myDropdown").classList.toggle("show");
+		}
+		window.onclick = function(e) {
+  		if (!e.target.matches('.dropbtn')) {
+  		var myDropdown = document.getElementById("myDropdown");
+   		if (myDropdown.classList.contains('show')) {
+     	myDropdown.classList.remove('show');
+   		 }
+  			}
+			}
+		</script>
+		<br>
+			<p align="center"><img src="redlinemap.png" width="1200" height="180"></p>
+		<br>
+			<p align="center"><h2 class="titleblurb">「淡水線」は歴史の赴きが感じられる新北市淡水区から台北市の「新宿」と呼ばれる賑やかな信義区まで走る。沿線では上手い食べ物がいっぱいある「士林夜市」や「永康街」、歴史的な「中正紀念堂」、自然が恵まれている「關渡」などがあります。</h2></p>
+		<br>
+	</body>

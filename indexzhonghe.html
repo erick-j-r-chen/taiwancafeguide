@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><html lang="cn"><html lang="jp">
+	<head>
+		<title>台湾カフェガイド</title>
+			<link rel="stylesheet" href="main.css">
+			<script type="text/javascript">
+	    		function goToNewPage()
+	    		{
+	        		var url = document.getElementById('list').value;
+	        		if(url != 'none') {
+	       				window.location = url;
+	        		}
+	   			 }
+			</script>
+		<link rel="stylesheet" href="main.css"></link>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Serif+TC:wght@400;700&family=Raleway:wght@600&family=Sawarabi+Gothic&family=Sriracha&display=swap" rel="stylesheet"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<style>
+		.navbar{
+		overflow: hidden;
+		background-color: #795548;
+		width: 100%;
+		}
+		.navbar a {
+		 float:left;
+		 font-family:'Sawarabi Gothic';
+		color:#FFC400;
+ 		 font-size: 35px;
+ 		 text-align: center;
+ 		 padding: 14px 16px;
+ 		 text-decoration: none;
+		margin: 10px 10px;
+		border: 7px solid #FFC400;	
+		color:  #FFC265;
+		box-sizing: border-box;
+		border-radius: 18px;
+		background-color: white;
+		}
+		.dropdown {
+ 		 float: left;
+ 		 overflow: hidden;
+		}
+		.dropdown .dropbtn {
+  		cursor: pointer;
+  		font-size: 35px;  
+  		border: 7px solid #FFC400;
+  		outline: none;
+  		color:  #FFC265;
+  		padding: 14px 16px;
+  		background-color: inherit;
+  		font-family:'Sawarabi Gothic';
+  		margin: 0;
+		flex: none;
+		order: 0;
+		align-self: center;
+		margin: 10px 10px;
+		border: 7px solid #FFC400;
+		box-sizing: border-box;
+		border-radius: 18px;
+		padding: 15px;
+		background-color: white;
+		}		
+		.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+		  background-color:#FFECB3;
+		}
+		.dropdown-content {
+ 		 display: none;
+ 		 position: absolute;
+		 background-color: #f9f9f9;
+		 min-width: 160px;
+ 		 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		 z-index: 1;
+		}
+
+		.dropdown-content a {
+		  float: none;
+		  color: #FFC400;
+		  padding: 15px;
+ 		 text-decoration: none;
+		  display: block;
+		  text-align: left;
+		  font-family: 'Sawarabi Gothic';
+		  font-size: 25px
+		}
+
+		.dropdown-content a:hover {
+ 		background-color:#689F38;
+		}
+
+		.show {
+ 		display: block;
+		}
+	</style>	
+	<body>
+		<header align="center">
+			<h1 class="title"><strong>日本に留学した台湾人の台湾カフェガイド</strong></h1>
+			<h2 class="subtitle"><strong>台湾の居心地の良いカフェで一息いれて、癒して</strong></h2>
+			<div class="navbar">
+				<a href="index.html">ホーム</a>
+			<div class="dropdown">
+ 				 <button class="dropbtn" onclick="myFunction()">中和線沿線のカフェ
+			    <i class="fa fa-caret-down"></i>
+				 </button>
+			 <div class="dropdown-content" id="myDropdown">
+			 	<a href="luguoartyard.html">「大橋頭」 駅｜爐鍋コーヒーArtyard店（ルーグォー）</a>
+ 			    <a href="nanjiedeyi.html">「大橋頭」 駅｜南街得意</a>
+    			<a href="bleuandbooks.html">「忠孝新生」 駅｜青鳥 Bleu&Books</a>
+	 		    <a href="coffeesind.html">「忠孝新生」 駅｜Coffee Sind</a>
+	 		    <a href="glogcafe.html">「忠孝新生」 駅｜G Log</a>
+ 			    <a href="warmupcoffee.html">「古亭」 駅｜暖時光</a>
+ 			    <a href="twodcafe.html">「古亭」 駅｜2D カフェ</a>
+				  </div>
+ 				 </div> 
+ 			<a href="indexenglish.html" align="right">English</a>
+		</header>
+		<script>
+		function myFunction() {
+  		document.getElementById("myDropdown").classList.toggle("show");
+		}
+		window.onclick = function(e) {
+  		if (!e.target.matches('.dropbtn')) {
+  		var myDropdown = document.getElementById("myDropdown");
+   		if (myDropdown.classList.contains('show')) {
+     	myDropdown.classList.remove('show');
+   		 }
+  			}
+			}
+		</script>
+		<br>
+			<p align="center"><img src="orangelinemap.png" width="1200" height="180"></p>
+		<br>
+			<p align="center"><h2 class="titleblurb">「文湖線」は台北市の東北部にある南港区と内湖区から南にある文山区まで走る。沿線では「南港展覧館」等の国際交流施設があるし、自然が恵まれている「大湖公園」や「台北動物園」もあるし、便利な「松山空港」もあります。</h2></p>
+		<br>
+	</body>
